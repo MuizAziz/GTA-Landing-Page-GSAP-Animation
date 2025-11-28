@@ -1,16 +1,97 @@
-# React + Vite
+# GTA Landing Page (GSAP Animation)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a stylish **GTA-themed React landing page** created using **GSAP**, **React**, and **Tailwind CSS**.
+It includes a smooth **intro reveal animation** using SVG mask + timeline animations, and parallax motion effects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### **🎬 GSAP Intro Animation**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* SVG mask animation revealing the screen
+* Text `"IV"` expands & fades
+* Background zoom-in transition
+* Content loads only after animation completes
 
-## Expanding the ESLint configuration
+### **🌀 Parallax Motion**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Mouse move interaction on main screen
+* Background layers move at different speeds
+* Creates a 3D parallax effect
+
+### **🎨 Modern UI**
+
+* GTA-style headline text
+* High-quality background images
+* Responsive layout
+* Stylish navbar + bottom bar
+
+### **⚛️ Built With**
+
+* **React**
+* **GSAP + @gsap/react**
+* **Tailwind CSS**
+* **Remix Icons**
+
+---
+
+## 📂 Project Structure
+
+```
+/src
+  App.jsx
+  index.css
+  assets/
+    bg.png
+    sky.png
+    girlbg.png
+    ps5.png
+    imag.png
+/public
+  index.html
+```
+
+---
+
+## 🛠️ Installation & Running the Project
+
+### **1. Install packages**
+
+```
+npm install
+```
+
+### **2. Start development server**
+
+```
+npm run dev
+```
+
+Your project will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Preview (Screenshots Recommended)
+
+You can add screenshots after uploading your project.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+---
+
+## 📄 License
+
+This project is for learning and personal use.
+
+---
+
+### ⭐ If you like this project, give it a star on GitHub!
